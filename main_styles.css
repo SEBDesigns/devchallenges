@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --bg-col-main: #f9fbfc; /*Gray Off White*/
+  --bg-col-header: rgb(255, 255, 255);
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--bg-col-main);
+}
+
+header {
+  text-align: center;
+  margin: 0 auto;
+  padding: 3.5rem;
+  background-color: var(--bg-col-header);
+  width: 100vw;
+}
+
+header h1 {
+  margin-bottom: 1.15rem;
+  letter-spacing: 0.15rem;
+  font-weight: 600;
+}
+
+main {
+  /* border: 1px solid red; */
+  margin: 0 auto;
+  width: 55vw;
+}
+
+main li {
+  /* outline: 1px solid seagreen; */
+  margin-left: -1rem;
+  padding: 0.25rem;
+}
+
+section h2 {
+  font-weight: 500;
+  margin-bottom: 1.75rem;
+}
+
+section {
+  padding-bottom: 1.15rem;
+  padding-top: 1.5rem;
+}
+section:first-child {
+  /* border-bottom: 1px solid rgba(red, green, blue, a); */
+
+  border-bottom: 1px solid rgba(129, 128, 128, 0.375);
+}
+
+a {
+  text-decoration: none;
+}
+
+span.bold-basics {
+  font-weight: 600;
+}
+
+/*Media Query Practice -- Listed by Dimension Width --- 1280, 1024, 640 */
